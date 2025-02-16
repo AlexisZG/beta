@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+}
+.navbar {
+    background-color: pink !important;
+}
+
+.navbar-brand {
+    color: #222 !important;
+}
+
+.nav-link {
+    color: black;
+}
+.carousel img {
+    height: 500px;
+    object-fit: cover;
+
+}
+footer {
+    background: #222;
+    color: rgb(255, 255, 255);
+    padding: 20px 0;
+}
+footer a {
+    color: white;
+    text-decoration: none;
+}
+footer a:hover {
+    text-decoration: underline;
+}
+
+.nav-item.dropdown:hover .dropdown-menu {
+        display: block;
+}
+
+.dropdown-menu {
+    display: none; 
+    position: fixed;
+    top: 0;
+    left: 300px;
+    width: 250px;
+    height: 150%;
+    background-color: rgba(254, 253, 253, 0.486);
+    padding: 20px;
+    transition: left 0.3s ease-in-out;
+}   
